@@ -36,8 +36,8 @@ int main (void){
 	scanf("%d",&op);
 	switch (op)
 	{
-		case 1 :bi(op);n=bi();printf("%d",n);break;
-		case 2 :bi(op);n=bi();printf("%x",n);break;
+		case 1 :bi();n=bi();printf("%d",n);break;
+		case 2 :bi();n=bi();printf("%x",n);break;
 		case 3 :scanf("%x",&n);printf("%d",n);break;
 		case 4 :scanf("%x",&n);deci(n);break;
 		case 5 :scanf("%d",&n);deci(n);break;
