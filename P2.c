@@ -32,7 +32,7 @@ void deci(int n)
  }
 int main (void){
 	int op,n;
-	printf("Menu:\n1.Binario para Decimal\n2.Binario para Hexadecimal\n3.Hexadecimal para Decimal\n4.Hexadecimal para Binario\n5.Decimal para Binário\n6.Decimal para Hexadecimal\n7.Octal para Decimal\n8.Decimal para Octal\nOpcao escolhida: ");
+	printf("Menu:\n1.Binario para Decimal\n2.Binario para Hexadecimal\n3.Hexadecimal para Decimal\n4.Hexadecimal para Binario\n5.Decimal para Binario\n6.Decimal para Hexadecimal\n7.Octal para Decimal\n8.Decimal para Octal\nOpcao escolhida: ");
 	scanf("%d",&op);
 	switch (op)
 	{
