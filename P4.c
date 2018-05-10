@@ -1,19 +1,13 @@
 //Vinicius Peraro de Oliveira 11721ECP007
 #include <stdio.h>
-int stdlen(char str[]){
-	int i;
-	for(i=0;str[i]!='\0';i++){
-	}
-	return i;
-}
 int main(){
 	char str[256];
 	scanf("%s",&str);
-	int x=stdlen(str),in[x],i,nada;
+	int i,nada;
 	for (i=0;str[i]!='\0';i++){
-		in[i]=(int)str[i];
-		if (in[i]>=48 && in[i]<=57){
-			printf("%d",in[i]-48);
+		str[i]=(int)str[i];
+		if (str[i]>=48 && str[i]<=57){
+			printf("%d",str[i]-48);
 		} else {
 			nada=0;
 		}
