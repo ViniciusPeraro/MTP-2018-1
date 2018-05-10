@@ -8,7 +8,7 @@ int stdlen(char str[]){
 }
 int main(){
 	char str[256];
-	scanf("%s",str);
+	scanf("%s",&str);
 	int x=stdlen(str),in[x],i;
 	for (i=0;str[i]!='\0';i++){
 		in[i]=(int)str[i];
