@@ -18,6 +18,6 @@ int main ()
     printf("Insira o valor de M e N (nessa ordem): ");
     scanf("%d %d",&m,&n);
     getchar();
-    printf("%d",A(m, n));
+    printf("resulta em: %d",A(m, n));
     return 0;
 }
