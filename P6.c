@@ -1,3 +1,4 @@
+//Vinicius Peraro 11721ECP007
 #include <stdio.h>
 int some(int n,int vet[20]){
 	int i;
