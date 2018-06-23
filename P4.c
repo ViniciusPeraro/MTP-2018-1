@@ -1,8 +1,8 @@
 //Vinicius Peraro de Oliveira 11721ECP007
 #include <stdio.h>
 int main(){
-	char str[256];
-	scanf("%s",&str);
+	unsigned char str[256];
+	scanf("%s",str);
 	int i,nada;
 	for (i=0;str[i]!='\0';i++){
 		str[i]=(int)str[i];
