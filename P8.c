@@ -33,18 +33,18 @@ int main (){
 	float vet[tam],resultado;
 	int i,op,n=tam;
 	definir(vet);
-	Menu:
 	printf("Menu:\n1.Somatorio.\n2.Produtorio.\n3.Printar os valores dos vetores e fechar o programa.\nOpcao: ");
+	Menu:
 	scanf("%d",&op);
 	getchar();
 	if(op<1 || op>3){
-		printf("Opcao invalida.");
+		printf("Opcao invalida, tente novamente: ");
 		goto Menu;
 	}
 	switch(op){
-		case 1:resultado=somar(vet,n);printf("\nSomatorio:%f\n\n",resultado);goto Menu;//break;
-		case 2:resultado=multiplicar(vet,n);printf("\nProdutorio:%f\n\n",resultado);goto Menu;//break;
-		case 3:printf("\n");printar(vet);printf("\n");break;
+		case 1:resultado=somar(vet,n);printf("\nSomatorio:%f",resultado);break;
+		case 2:resultado=multiplicar(vet,n);printf("\nProdutorio:%f",resultado);break;
+		case 3:printf("\n");printar(vet);break;
 	}
 	return 0;
 }
