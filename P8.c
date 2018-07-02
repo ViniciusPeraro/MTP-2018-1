@@ -42,7 +42,7 @@ int main (){
 		goto Menu;
 	}
 	switch(op){
-		case 1:resultado=somar(vet,n);printf("\nSomatorio:%f",resultado);break;
+		case 1:resultado=somar(vet,n);printf("\nSomatorio:%.3f",resultado);break;
 		case 2:resultado=multiplicar(vet,n);printf("\nProdutorio:%f",resultado);break;
 		case 3:printf("\n");printar(vet);break;
 	}
