@@ -14,7 +14,7 @@ struct produtos{
 void cadastro(int n){
 	if(n<=0){ printf("A opcao de Cadastrar um Produto na Posicao 0 nao esta disponivel.\n\n");} 
 	else if(n!=0){
-		scanf("%s", &(pro[n].nome));
+		scanf("%s",(pro[n].nome));
 		getchar();
 		scanf("%f %f %f %f",&pro[n].preco,&pro[n].din.altura,&pro[n].din.largura,&pro[n].din.profundidade);
 		getchar();
